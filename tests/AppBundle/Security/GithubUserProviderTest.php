@@ -7,6 +7,7 @@ use AppBundle\Security\GithubUserProvider;
 
 class GithubUserProviderTest extends \PHPUnit_Framework_TestCase
 {
+    
     private $client;
     private $serializer;
     private $streamedResponse;
